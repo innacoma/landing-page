@@ -22,7 +22,7 @@ header {
   background-color: #1F2937;
 }
 
-header p {
+header p, #section-one p {
   color: #F9FaF8;
   font-size: 24px;
 }
@@ -49,4 +49,36 @@ nav a {
 
 main {
   padding-top: 120px;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: extra-bold;
+  color: #F9FaF8;
+}
+
+#section-one {
+  display: flex;
+  max-width: 80vw;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero h1, .hero p, .hero a {
+  margin: 5px 0;
+} 
+
+#section-one img {
+  height: 200px;
+  width: 350px;
+  margin-left: 10px;
+}
+
+#section-one a {
+  text-decoration-line: none;
+  color: #F9FaF8;
+  background-color: #3882F6;
+  padding: 5px 20px;
+  border-radius: 7px;
 }
