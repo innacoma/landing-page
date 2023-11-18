@@ -125,12 +125,14 @@ h2 {
   justify-content: center;
   text-align: center;
   flex-direction: column;
+  padding: 0 10vw;
 }
 
 #quote-text {
   font-size: 36px;
   font-style: italic;
   color: #1F2937;
+  margin: auto;
 }
 
 #quote-author {
