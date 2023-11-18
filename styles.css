@@ -19,6 +19,12 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #1F2937;
+}
+
+header p {
+  color: #F9FaF8;
+  font-size: 24px;
 }
 
 nav {
